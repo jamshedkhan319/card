@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <!-- Visa Card -->
+        <div class="card visa-card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-logo">VISA</div>
+                    <div class="card-number">4170338078543204</div>
+                    <div class="card-details">
+                        <div class="card-holder">
+                            <span>Card Holder Name</span>
+                            <h4>JAMSHED KHAN</h4>
+                        </div>
+                        <div class="expiry-date">
+                            <span>Expires</span>
+                            <p>07/28</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="magnetic-strip"></div>
+                    <div class="cvv-section">
+                        <span>CVV: </span><strong>398</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MasterCard -->
+        <div class="card master-card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-logo">MasterCard</div>
+                    <div class="card-number">5678 1234 9012 3456</div>
+                    <div class="card-details">
+                        <div class="card-holder">
+                            <span>Card Holder Name</span>
+                            <h4>JAMSHED KHAN</h4>
+                        </div>
+                        <div class="expiry-date">
+                            <span>Expires</span>
+                            <p>06/26</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="magnetic-strip"></div>
+                    <div class="cvv-section">
+                        <span>CVV: </span><strong>456</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Platinum Card -->
+        <div class="card platinum-card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-logo">Platinum</div>
+                    <div class="card-number">9012 3456 1234 5678</div>
+                    <div class="card-details">
+                        <div class="card-holder">
+                            <span>Card Holder Name</span>
+                            <h4>JAMSHED KHAN</h4>
+                        </div>
+                        <div class="expiry-date">
+                            <span>Expires</span>
+                            <p>09/28</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="magnetic-strip"></div>
+                    <div class="cvv-section">
+                        <span>CVV: </span><strong>789</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
